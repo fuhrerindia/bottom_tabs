@@ -1,0 +1,16 @@
+#bottom_tab_navigator{
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-top:15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: 0 0 10px #666;
+}
+.tab_label, .tab_icon{
+    display: block;
+    cursor: pointer;
+}
